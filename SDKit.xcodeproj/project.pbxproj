@@ -56,6 +56,7 @@
 		4824E0F71CC50A09008BF83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9976754A1CC526BE0003E149 /* UIView+SDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDBorder.h"; sourceTree = "<group>"; };
 		9976754B1CC526BE0003E149 /* UIView+SDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDBorder.m"; sourceTree = "<group>"; };
+		9976754D1CC527B40003E149 /* SDKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +153,7 @@
 			children = (
 				9976752D1CC525A60003E149 /* Foundation */,
 				997675381CC525A60003E149 /* UIKit */,
+				9976754D1CC527B40003E149 /* SDKit.h */,
 			);
 			path = SDKit;
 			sourceTree = "<group>";
