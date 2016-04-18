@@ -16,6 +16,7 @@
 		4824E0E01CC50A08008BF83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4824E0DE1CC50A08008BF83F /* LaunchScreen.storyboard */; };
 		4824E0EB1CC50A08008BF83F /* SDKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0EA1CC50A08008BF83F /* SDKitTests.m */; };
 		4824E0F61CC50A09008BF83F /* SDKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0F51CC50A09008BF83F /* SDKitUITests.m */; };
+		9976754C1CC526BE0003E149 /* UIView+SDBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976754B1CC526BE0003E149 /* UIView+SDBorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4824E0F11CC50A09008BF83F /* SDKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4824E0F51CC50A09008BF83F /* SDKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKitUITests.m; sourceTree = "<group>"; };
 		4824E0F71CC50A09008BF83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9976754A1CC526BE0003E149 /* UIView+SDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDBorder.h"; sourceTree = "<group>"; };
+		9976754B1CC526BE0003E149 /* UIView+SDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDBorder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +344,8 @@
 		997675441CC525A60003E149 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				9976754A1CC526BE0003E149 /* UIView+SDBorder.h */,
+				9976754B1CC526BE0003E149 /* UIView+SDBorder.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4824E0D51CC50A08008BF83F /* ViewController.m in Sources */,
+				9976754C1CC526BE0003E149 /* UIView+SDBorder.m in Sources */,
 				4824E0DB1CC50A08008BF83F /* SDKit.xcdatamodeld in Sources */,
 				4824E0D21CC50A08008BF83F /* AppDelegate.m in Sources */,
 				4824E0CF1CC50A08008BF83F /* main.m in Sources */,
