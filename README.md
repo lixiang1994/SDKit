@@ -7,8 +7,8 @@
 博爱：https://github.com/boai
 
 LEE：http://www.jianshu.com/users/a6da0db100c8?utm_campaign=hugo&utm_medium=reader_share&utm_content=user&utm_source=qq
-####3.2 NS大类：
+###3.2 NS大类：
 果粒橙：https://github.com/HRongChen
 
 Gang：
-####3.3 代码贡献者
+###3.3 代码贡献者
