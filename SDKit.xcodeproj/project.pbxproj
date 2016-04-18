@@ -103,6 +103,8 @@
 		4824E0CC1CC50A08008BF83F /* SDKit */ = {
 			isa = PBXGroup;
 			children = (
+				C4D70EE51CC5178800620485 /* UIKit */,
+				C4D70EDA1CC5178800620485 /* Foundation */,
 				4824E0D01CC50A08008BF83F /* AppDelegate.h */,
 				4824E0D11CC50A08008BF83F /* AppDelegate.m */,
 				4824E0D31CC50A08008BF83F /* ViewController.h */,
@@ -141,6 +143,212 @@
 				4824E0F71CC50A09008BF83F /* Info.plist */,
 			);
 			path = SDKitUITests;
+			sourceTree = "<group>";
+		};
+		C4D70EDA1CC5178800620485 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C4D70EDB1CC5178800620485 /* NSArray */,
+				C4D70EDC1CC5178800620485 /* NSData */,
+				C4D70EDD1CC5178800620485 /* NSDate */,
+				C4D70EDE1CC5178800620485 /* NSDictionary */,
+				C4D70EDF1CC5178800620485 /* NSMutableArray */,
+				C4D70EE01CC5178800620485 /* NSMutableDictionary */,
+				C4D70EE11CC5178800620485 /* NSNumber */,
+				C4D70EE21CC5178800620485 /* NSProcessInfo */,
+				C4D70EE31CC5178800620485 /* NSString */,
+				C4D70EE41CC5178800620485 /* NSThread */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		C4D70EDB1CC5178800620485 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		C4D70EDC1CC5178800620485 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		C4D70EDD1CC5178800620485 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		C4D70EDE1CC5178800620485 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		C4D70EDF1CC5178800620485 /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSMutableArray;
+			sourceTree = "<group>";
+		};
+		C4D70EE01CC5178800620485 /* NSMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSMutableDictionary;
+			sourceTree = "<group>";
+		};
+		C4D70EE11CC5178800620485 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		C4D70EE21CC5178800620485 /* NSProcessInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSProcessInfo;
+			sourceTree = "<group>";
+		};
+		C4D70EE31CC5178800620485 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		C4D70EE41CC5178800620485 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		C4D70EE51CC5178800620485 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C4D70EE61CC5178800620485 /* UIButton */,
+				C4D70EE71CC5178800620485 /* UIColor */,
+				C4D70EE81CC5178800620485 /* UIDevice */,
+				C4D70EE91CC5178800620485 /* UIFont */,
+				C4D70EEA1CC5178800620485 /* UIImage */,
+				C4D70EEB1CC5178800620485 /* UIImageView */,
+				C4D70EEC1CC5178800620485 /* UILabel */,
+				C4D70EED1CC5178800620485 /* UIPickView */,
+				C4D70EEE1CC5178800620485 /* UIScrollView */,
+				C4D70EEF1CC5178800620485 /* UITabelView */,
+				C4D70EF01CC5178800620485 /* UITextField */,
+				C4D70EF11CC5178800620485 /* UIView */,
+				C4D70EF21CC5178800620485 /* UIWebView */,
+				C4D70EF31CC5178800620485 /* UIWindow */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		C4D70EE61CC5178800620485 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C4D70EE71CC5178800620485 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		C4D70EE81CC5178800620485 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		C4D70EE91CC5178800620485 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		C4D70EEA1CC5178800620485 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C4D70EEB1CC5178800620485 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		C4D70EEC1CC5178800620485 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		C4D70EED1CC5178800620485 /* UIPickView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIPickView;
+			sourceTree = "<group>";
+		};
+		C4D70EEE1CC5178800620485 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		C4D70EEF1CC5178800620485 /* UITabelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITabelView;
+			sourceTree = "<group>";
+		};
+		C4D70EF01CC5178800620485 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		C4D70EF11CC5178800620485 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C4D70EF21CC5178800620485 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
+		C4D70EF31CC5178800620485 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +712,7 @@
 				4824E0FC1CC50A09008BF83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4824E0FD1CC50A09008BF83F /* Build configuration list for PBXNativeTarget "SDKitTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +721,7 @@
 				4824E0FF1CC50A09008BF83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4824E1001CC50A09008BF83F /* Build configuration list for PBXNativeTarget "SDKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +730,7 @@
 				4824E1021CC50A09008BF83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
