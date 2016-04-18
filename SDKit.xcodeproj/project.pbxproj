@@ -103,6 +103,7 @@
 		4824E0CC1CC50A08008BF83F /* SDKit */ = {
 			isa = PBXGroup;
 			children = (
+				9976752C1CC525A60003E149 /* SDKit */,
 				4824E0D01CC50A08008BF83F /* AppDelegate.h */,
 				4824E0D11CC50A08008BF83F /* AppDelegate.m */,
 				4824E0D31CC50A08008BF83F /* ViewController.h */,
@@ -141,6 +142,221 @@
 				4824E0F71CC50A09008BF83F /* Info.plist */,
 			);
 			path = SDKitUITests;
+			sourceTree = "<group>";
+		};
+		9976752C1CC525A60003E149 /* SDKit */ = {
+			isa = PBXGroup;
+			children = (
+				9976752D1CC525A60003E149 /* Foundation */,
+				997675381CC525A60003E149 /* UIKit */,
+			);
+			path = SDKit;
+			sourceTree = "<group>";
+		};
+		9976752D1CC525A60003E149 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				9976752E1CC525A60003E149 /* NSArray */,
+				9976752F1CC525A60003E149 /* NSData */,
+				997675301CC525A60003E149 /* NSDate */,
+				997675311CC525A60003E149 /* NSDictionary */,
+				997675321CC525A60003E149 /* NSMutableArray */,
+				997675331CC525A60003E149 /* NSMutableDictionary */,
+				997675341CC525A60003E149 /* NSNumber */,
+				997675351CC525A60003E149 /* NSProcessInfo */,
+				997675361CC525A60003E149 /* NSString */,
+				997675371CC525A60003E149 /* NSThread */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9976752E1CC525A60003E149 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		9976752F1CC525A60003E149 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		997675301CC525A60003E149 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		997675311CC525A60003E149 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		997675321CC525A60003E149 /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSMutableArray;
+			sourceTree = "<group>";
+		};
+		997675331CC525A60003E149 /* NSMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSMutableDictionary;
+			sourceTree = "<group>";
+		};
+		997675341CC525A60003E149 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		997675351CC525A60003E149 /* NSProcessInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSProcessInfo;
+			sourceTree = "<group>";
+		};
+		997675361CC525A60003E149 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		997675371CC525A60003E149 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		997675381CC525A60003E149 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				997675391CC525A60003E149 /* UIButton */,
+				9976753A1CC525A60003E149 /* UIColor */,
+				9976753B1CC525A60003E149 /* UIDevice */,
+				9976753C1CC525A60003E149 /* UIFont */,
+				9976753D1CC525A60003E149 /* UIImage */,
+				9976753E1CC525A60003E149 /* UIImageView */,
+				9976753F1CC525A60003E149 /* UILabel */,
+				997675401CC525A60003E149 /* UIPickView */,
+				997675411CC525A60003E149 /* UIScrollView */,
+				997675421CC525A60003E149 /* UITabelView */,
+				997675431CC525A60003E149 /* UITextField */,
+				997675441CC525A60003E149 /* UIView */,
+				997675451CC525A60003E149 /* UIWebView */,
+				997675461CC525A60003E149 /* UIWindow */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		997675391CC525A60003E149 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		9976753A1CC525A60003E149 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		9976753B1CC525A60003E149 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		9976753C1CC525A60003E149 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		9976753D1CC525A60003E149 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		9976753E1CC525A60003E149 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		9976753F1CC525A60003E149 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		997675401CC525A60003E149 /* UIPickView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIPickView;
+			sourceTree = "<group>";
+		};
+		997675411CC525A60003E149 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		997675421CC525A60003E149 /* UITabelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITabelView;
+			sourceTree = "<group>";
+		};
+		997675431CC525A60003E149 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		997675441CC525A60003E149 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		997675451CC525A60003E149 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
+		997675461CC525A60003E149 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
