@@ -57,6 +57,8 @@
 		9976754A1CC526BE0003E149 /* UIView+SDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDBorder.h"; sourceTree = "<group>"; };
 		9976754B1CC526BE0003E149 /* UIView+SDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDBorder.m"; sourceTree = "<group>"; };
 		9976754D1CC527B40003E149 /* SDKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKit.h; sourceTree = "<group>"; };
+		9976754E1CC528530003E149 /* SDUIKitTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDUIKitTools.h; sourceTree = "<group>"; };
+		9976754F1CC528760003E149 /* SDFoundationTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFoundationTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				997675351CC525A60003E149 /* NSProcessInfo */,
 				997675361CC525A60003E149 /* NSString */,
 				997675371CC525A60003E149 /* NSThread */,
+				9976754F1CC528760003E149 /* SDFoundationTools.h */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				997675441CC525A60003E149 /* UIView */,
 				997675451CC525A60003E149 /* UIWebView */,
 				997675461CC525A60003E149 /* UIWindow */,
+				9976754E1CC528530003E149 /* SDUIKitTools.h */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
