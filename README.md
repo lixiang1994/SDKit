@@ -11,5 +11,7 @@ LEE：http://www.jianshu.com/users/a6da0db100c8
 ###3.2 NS大类：
 果粒橙：https://github.com/HRongChen
 
+lovemo：https://github.com/lovemo  
+
 Gang：
 ###3.3 代码贡献者
