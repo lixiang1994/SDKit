@@ -16,6 +16,9 @@
 		4824E0E01CC50A08008BF83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4824E0DE1CC50A08008BF83F /* LaunchScreen.storyboard */; };
 		4824E0EB1CC50A08008BF83F /* SDKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0EA1CC50A08008BF83F /* SDKitTests.m */; };
 		4824E0F61CC50A09008BF83F /* SDKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0F51CC50A09008BF83F /* SDKitUITests.m */; };
+		C4E20B4E1CC5FCA900E32F0E /* UIFont+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E20B4D1CC5FCA900E32F0E /* UIFont+SDKit.m */; };
+		C4E20B541CC5FD7100E32F0E /* NSArray+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E20B531CC5FD7100E32F0E /* NSArray+SDKit.m */; };
+		C4E20B571CC5FEBB00E32F0E /* NSMutableArray+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E20B561CC5FEBB00E32F0E /* NSMutableArray+SDKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		4824E0F11CC50A09008BF83F /* SDKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4824E0F51CC50A09008BF83F /* SDKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKitUITests.m; sourceTree = "<group>"; };
 		4824E0F71CC50A09008BF83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E20B4C1CC5FCA900E32F0E /* UIFont+SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SDKit.h"; sourceTree = "<group>"; };
+		C4E20B4D1CC5FCA900E32F0E /* UIFont+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SDKit.m"; sourceTree = "<group>"; };
+		C4E20B521CC5FD7100E32F0E /* NSArray+SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SDKit.h"; sourceTree = "<group>"; };
+		C4E20B531CC5FD7100E32F0E /* NSArray+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SDKit.m"; sourceTree = "<group>"; };
+		C4E20B551CC5FEBB00E32F0E /* NSMutableArray+SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SDKit.h"; sourceTree = "<group>"; };
+		C4E20B561CC5FEBB00E32F0E /* NSMutableArray+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SDKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +174,8 @@
 		C4D70EDB1CC5178800620485 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				C4E20B521CC5FD7100E32F0E /* NSArray+SDKit.h */,
+				C4E20B531CC5FD7100E32F0E /* NSArray+SDKit.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -193,6 +204,8 @@
 		C4D70EDF1CC5178800620485 /* NSMutableArray */ = {
 			isa = PBXGroup;
 			children = (
+				C4E20B551CC5FEBB00E32F0E /* NSMutableArray+SDKit.h */,
+				C4E20B561CC5FEBB00E32F0E /* NSMutableArray+SDKit.m */,
 			);
 			path = NSMutableArray;
 			sourceTree = "<group>";
@@ -277,6 +290,8 @@
 		C4D70EE91CC5178800620485 /* UIFont */ = {
 			isa = PBXGroup;
 			children = (
+				C4E20B4C1CC5FCA900E32F0E /* UIFont+SDKit.h */,
+				C4E20B4D1CC5FCA900E32F0E /* UIFont+SDKit.m */,
 			);
 			path = UIFont;
 			sourceTree = "<group>";
@@ -482,8 +497,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4824E0D51CC50A08008BF83F /* ViewController.m in Sources */,
+				C4E20B541CC5FD7100E32F0E /* NSArray+SDKit.m in Sources */,
+				C4E20B571CC5FEBB00E32F0E /* NSMutableArray+SDKit.m in Sources */,
 				4824E0DB1CC50A08008BF83F /* SDKit.xcdatamodeld in Sources */,
 				4824E0D21CC50A08008BF83F /* AppDelegate.m in Sources */,
+				C4E20B4E1CC5FCA900E32F0E /* UIFont+SDKit.m in Sources */,
 				4824E0CF1CC50A08008BF83F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
