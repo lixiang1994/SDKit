@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-
+/** 
+ 
+ 将你需要给category添加的实例属性直接添加到这里
+ 例：@property (nonatomic, strong) UIView *sd_leftBorder;
+ 调用方法：[self.sd_categoryPropertiesManager sd_leftBorder];
+ 
+ */
 @interface SDViewToolsCategoryPropertiesManager : NSObject
+
 
 @end
 
