@@ -16,6 +16,7 @@
 		4824E0E01CC50A08008BF83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4824E0DE1CC50A08008BF83F /* LaunchScreen.storyboard */; };
 		4824E0EB1CC50A08008BF83F /* SDKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0EA1CC50A08008BF83F /* SDKitTests.m */; };
 		4824E0F61CC50A09008BF83F /* SDKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0F51CC50A09008BF83F /* SDKitUITests.m */; };
+		48E115221CC5D1E30047DD3C /* UIView+SDViewToolsBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E115211CC5D1E30047DD3C /* UIView+SDViewToolsBasic.m */; };
 		9976754C1CC526BE0003E149 /* UIView+SDBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976754B1CC526BE0003E149 /* UIView+SDBorder.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		4824E0F11CC50A09008BF83F /* SDKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4824E0F51CC50A09008BF83F /* SDKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKitUITests.m; sourceTree = "<group>"; };
 		4824E0F71CC50A09008BF83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E115201CC5D1E30047DD3C /* UIView+SDViewToolsBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDViewToolsBasic.h"; sourceTree = "<group>"; };
+		48E115211CC5D1E30047DD3C /* UIView+SDViewToolsBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDViewToolsBasic.m"; sourceTree = "<group>"; };
 		9976754A1CC526BE0003E149 /* UIView+SDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDBorder.h"; sourceTree = "<group>"; };
 		9976754B1CC526BE0003E149 /* UIView+SDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDBorder.m"; sourceTree = "<group>"; };
 		9976754D1CC527B40003E149 /* SDKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKit.h; sourceTree = "<group>"; };
@@ -148,6 +151,15 @@
 				4824E0F71CC50A09008BF83F /* Info.plist */,
 			);
 			path = SDKitUITests;
+			sourceTree = "<group>";
+		};
+		48E1151F1CC5D19A0047DD3C /* ViewToolsBasic */ = {
+			isa = PBXGroup;
+			children = (
+				48E115201CC5D1E30047DD3C /* UIView+SDViewToolsBasic.h */,
+				48E115211CC5D1E30047DD3C /* UIView+SDViewToolsBasic.m */,
+			);
+			path = ViewToolsBasic;
 			sourceTree = "<group>";
 		};
 		9976752C1CC525A60003E149 /* SDKit */ = {
@@ -251,6 +263,7 @@
 		997675381CC525A60003E149 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				48E1151F1CC5D19A0047DD3C /* ViewToolsBasic */,
 				997675391CC525A60003E149 /* UIButton */,
 				9976753A1CC525A60003E149 /* UIColor */,
 				9976753B1CC525A60003E149 /* UIDevice */,
@@ -503,6 +516,7 @@
 				4824E0D51CC50A08008BF83F /* ViewController.m in Sources */,
 				9976754C1CC526BE0003E149 /* UIView+SDBorder.m in Sources */,
 				4824E0DB1CC50A08008BF83F /* SDKit.xcdatamodeld in Sources */,
+				48E115221CC5D1E30047DD3C /* UIView+SDViewToolsBasic.m in Sources */,
 				4824E0D21CC50A08008BF83F /* AppDelegate.m in Sources */,
 				4824E0CF1CC50A08008BF83F /* main.m in Sources */,
 			);
